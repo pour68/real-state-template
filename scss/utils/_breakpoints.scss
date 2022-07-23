@@ -1,4 +1,4 @@
-@media (max-width: 350px) {
+@media (max-width: 385px) {
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
@@ -13,7 +13,7 @@
     }
 
     .contact__card {
-        grid-template-columns: 180px;
+        grid-template-columns: repeat(2, minmax(170px, 180px));
         justify-content: center;
     }
 }
