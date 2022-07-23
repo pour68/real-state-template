@@ -1,0 +1,26 @@
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    top: initial;
+    bottom: 0;
+    width: initial;
+    height: initial;
+    background-color: var(--container-color);
+    border: 2px solid var(--text-color-light);
+    padding: 6px;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+.swiper-button-prev {
+    left: calc(50% - 3rem);
+}
+
+.swiper-button-next {
+    right: calc(50% - 3rem);
+}

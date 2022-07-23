@@ -1,0 +1,32 @@
+.container {
+    max-width: 1024px;
+    margin-left: var(--mb-3);
+    margin-right: var(--mb-3);
+}
+
+.d-grid {
+    display: grid;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.section {
+    padding: 4.5rem 0 2rem;
+}
+
+.section__title {
+    font-size: var(--fs-xl);
+    margin-bottom: 1rem;
+}
+
+.section__title span {
+    color: var(--second-color);
+}
+
+.section__subtitle {
+    display: block;
+    font-size: var(--fs-sm);
+    color: var(--second-color);
+}

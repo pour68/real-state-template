@@ -1,0 +1,36 @@
+body.dark-theme {
+    --first-color: hsl(31, 76%, 74%);
+    --button-color: hsl(0, 0%, 24%);
+    --button-color-alt: hsl(0, 0%, 28%);
+    --title-color: hsl(0, 0%, 95%);
+    --text-color: hsl(0, 0%, 75%);
+    --body-color: hsl(0, 0%, 12%);
+    --container-color: hsl(0, 0%, 16%);
+    --border-color: hsl(0, 0%, 20%);
+}
+
+.dark-theme .value__orbe,
+.dark-theme .value__accordion--icon,
+.dark-theme .value__accordion--arrow,
+.dark-theme .contact__orbe,
+.dark-theme .contact__card i,
+.dark-theme .contact__card__button,
+.dark-theme .subscribe__container {
+    background-color: var(--container-color);
+}
+
+.dark-theme .subscribe__container {
+    border: 6px solid var(--border-color);
+}
+
+
+.change-theme {
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        color: var(--first-color);
+    }
+}

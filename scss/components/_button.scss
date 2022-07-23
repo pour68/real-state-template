@@ -1,0 +1,22 @@
+@use "../common/variables" as *;
+
+.button {
+    display: inline-block;
+    background: linear-gradient(101deg, hsl(var(--color), 66%, 53%), hsl(var(--color), 66%, 47%));
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 0.5;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    box-shadow: 0 4px 8px hsla(var(--color), 66%, 45%, 0.25);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 4px 12px hsla(var(--color), 66%, 45%, 0.25);
+}
+
+.nav__button {
+    display: none;
+}

@@ -1,0 +1,51 @@
+:root {
+    --header-height: 3.5rem;
+
+    --color: 228;
+    --first-color: hsl(var(--color), 66%, 53%);
+    --first-color-alt: hsl(var(--color), 66%, 47%);
+    --first-color-light: hsl(var(--color), 62%, 59%);
+    --first-color-lighten: hsl(var(--color), 100%, 97%);
+    --second-color: hsl(25, 83%, 53%);
+    --title-color: hsl(var(--color), 57%, 28%);
+    --text-color: hsl(var(--color), 15%, 50%);
+    --text-color-light: hsl(var(--color), 12%, 75%);
+    --border-color: hsl(var(--color), 99%, 98%);
+    --body-color: #fff;
+    --container-color: #fff;
+
+    --body-font: "Roboto", sans-serif;
+    --fs-big: 2.25rem;
+    --fs-xxl: 1.5rem;
+    --fs-xl: 1.25rem;
+    --fs-lg: 1rem;
+    --fs-md: 0.938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.75rem;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    --zi-tooltip: 10;
+    --zi-fixed: 100;
+}
+
+@media screen and (min-width: 1024px) {
+    :root {
+        --fs-big: 4rem;
+        --fs-xxl: 2.25rem;
+        --fs-xl: 1.5rem;
+        --fs-lg: 1.25rem;
+        --fs-md: 1rem;
+        --fs-sm: 0.875rem;
+        --fs-xs: 0.813rem;
+    }
+}
